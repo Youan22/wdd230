@@ -1,0 +1,64 @@
+/* Reset some default styles for consistency across browsers */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: 'Montserrat', sans-serif; /* Default font for paragraphs */
+    line-height: 1.6;
+    color: #333; /* Default text color */
+  }
+  
+  /* Header styles */
+  header {
+    /* Add your header styles here */
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 800px; /* Adjust the maximum width based on your design */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h2, h3, h4 {
+    font-family: 'Roboto', sans-serif; /* Heading font */
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Colored paragraph example */
+  .colored {
+    color: #F17300; /* Accent 1 color */
+  }
+  
+  /* Color palette styles */
+  .colors {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .colors th, .colors td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Footer styles */
+  footer {
+    /* Add your footer styles here */
+  }
+  
+  /* Responsive wireframe image */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
