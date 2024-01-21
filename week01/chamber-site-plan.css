@@ -14,7 +14,7 @@ body, h1, h2, h3, p, table {
   /* Header styles */
   header {
     /* header styles here */
-    background-color: blue;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
