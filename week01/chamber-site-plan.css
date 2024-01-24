@@ -28,6 +28,12 @@ body, h1, h2, h3, p, table {
     margin: 0 auto;
     padding: 20px;
   }
+
+  h1 {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+  }
   
   /* Heading styles */
   h2, h3, h4 {
