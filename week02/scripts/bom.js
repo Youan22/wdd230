@@ -23,12 +23,11 @@ button.addEventListener('click', () => {
     list.appendChild(li);
 
     input.value = '';
-    input.focus();
 
 
-  } else {
+  } 
     input.focus();
-  }
+  
 });
 
 /*const input = document.querySelector('input');
