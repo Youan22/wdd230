@@ -2,14 +2,15 @@ const input = document.querySelector('input');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
-button.addEventListener('click', () => {
-  const inputValue = input.value; // Corrected variable name
+button.addEventListener('click', (e) => {
+e.preventDefault();
+  const inputValue = input.value; 
 
   if (inputValue) {
     const li = document.createElement('li');
     const deleteButton = document.createElement('button');
 
-    li.textContent = inputValue; // Corrected variable name
+    li.textContent = inputValue; 
     deleteButton.textContent = '❌';
     
     deleteButton.addEventListener('click', () => {
