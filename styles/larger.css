@@ -1,5 +1,27 @@
-/*Element Selector*/
-h1 {
-    color: blue;
+/* Media query for larger views */
+@media screen and (min-width: 768px) {
+  main {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  main h1 {
+    grid-column: span 2;
+    text-align: center;
+  }
+
+  #hamburgerBtn {
+    display: none;
+  }
 }
